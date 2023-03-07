@@ -145,4 +145,9 @@ header div ul{
         align-items: center;
     }
 
+    .testimonial-card-text{
+        text-align: left;
+        margin-left: 20px;
+    }
+
 }
