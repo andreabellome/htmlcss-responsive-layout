@@ -17,6 +17,7 @@
     --color-super-blue: #0093CE;
     --color-light-blue: #B5DDFF;
     --color-super-dark-blue: #0D2481;
+    --color-purple: #9792E4;
 
     --color-white: #FFFFFF;
     --color-black: #23272A;
@@ -225,6 +226,10 @@ a{
     margin-bottom: 70px;
 }
 
+.mt-10{
+    margin-top: 10px;
+}
+
 .mt-20{
     margin-top: 20px;
 }
@@ -388,6 +393,10 @@ a{
 .align-it-center{
     align-items: center;
 }
+
+.text-align-center{
+    text-align: center;
+}
 /* END: flex classes */
 
 /* START: position */
@@ -454,6 +463,10 @@ a{
 
 .bg-blue{
     background-color: var(--color-blue);
+}
+
+.bg-purple{
+    background-color: var(--color-purple);
 }
 
 .bg-light-blue{

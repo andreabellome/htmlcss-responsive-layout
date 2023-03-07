@@ -6,6 +6,7 @@ header div ul{
     border-radius: 15px;
     text-align: center;
     margin-bottom: 2rem;
+    flex-basis: 100%;
 }
 
 .card i{
@@ -26,11 +27,47 @@ header div ul{
     width: 80%;
 }
 
+.strategy-img{
+    width: 100%;
+}
+
+.card-white{
+    background-color: var(--color-white);
+    border-radius: 18px;
+}
+
+.btn-rounded{
+    background-color: var(--color-purple);
+    color: var(--color-dark);
+    border-radius: 100%;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
 /* MEDIA QUERY */
 
 /* tablet view */
 @media only screen and (min-width: 768px) {
     
+    .intro .card .card-img{
+        width: 50%;
+    }
+
+    .intro>.div{
+        justify-content: space-between;
+    }
+
+    .card{
+        flex-basis: calc(100%/3 - 2%);
+    }
+
+    .card:first-child{
+        flex-basis: calc(66.66% - 1%);
+    }
+
 }
 
 /* desktop view */
@@ -52,4 +89,15 @@ header div ul{
         width: 40%;
     }
 
+    .intro>.div{
+        justify-content: space-between;
+    }
+
+    .card{
+        flex-basis: calc(100%/3 - 2%);
+    }
+
+    .card:first-child{
+        flex-basis: calc(66.66% - 1%);
+    }
 }
