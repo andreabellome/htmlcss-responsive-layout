@@ -21,17 +21,22 @@
 </head>
 <body>
 
-    <header class="bg-blue">
+    <!-- START: header -->
+    <header class="bg-blue position-sticky padd-10">
 
+        <!-- div navigator -->
         <div class="debug bg-blue flex flex-dir-row just-cont-between padd-10 max-width width-70 margin-auto align-it-center">
             
+            <!-- logo -->
             <a href="#">
                 <img src="./assets/img/logo.png" alt="logo">
             </a>
             
+            <!-- icona menu -->
             <i class="fa-solid fa-bars col-white"></i>
 
-            <ul class="user-list debug">
+            <!-- list nav -->
+            <ul class="user-list debug padd-10">
                 <li>
                     <a href="#">Link</a>
                 </li>
@@ -45,15 +50,81 @@
                     <a href="#">Link</a>
                 </li>
                 <li>
-                    <a href="#">Link</a>
+                    <a class="button bg-white col-blue" href="#">Link</a>
                 </li>
             </ul>
 
         </div>
 
-        
-
     </header>
+    <!-- END: header -->
+
+
+    <!-- START: main -->
+    <main class="padd-10">
+
+        <section class="intro debug width-70 max-width margin-auto flex flex-wrap padd-10">
+
+            <div class="card debug flex-basis-100p100 bg-light-blue padd-10" style="border-radius: 8px;">
+
+                <div>
+                    <h3 class="mb-20">Lorem ipsum</h3>
+
+                    <p class="mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, saepe, reprehenderit sit in consequatur adipisci architecto, non quo numquam ab sed repellat delectus error? Assumenda praesentium ducimus quidem officiis odit?</p>
+
+                    <a class="button bg-blue col-white mb-20" href="#">
+                        <i class="fa-brands fa-apple col-white mr-10"></i>
+                        App Store
+                    </a>
+                </div>
+                
+                <img class="card-img mt-20 margin-auto" style="display: block;" src="./assets/img/phone.png" alt="phone">
+
+            </div>
+
+            <div class="card debug flex-basis-100p100 bg-light-blue padd-10" style="border-radius: 8px;">
+                <i class="fa-solid fa-file-code col-blue"></i>
+                <h3 class="col-blue mb-20">Titolo</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perspiciatis illo deleniti quisquam beatae quia quam provident. Accusantium perspiciatis deleniti veniam odit fugiat, accusamus sed quis labore voluptas distinctio facilis.
+                </p>
+            </div>
+
+            <div class="card debug flex-basis-100p100 bg-light-blue padd-10" style="border-radius: 8px;">
+                <i class="fa-solid fa-compass-drafting col-blue"></i>
+                <h3 class="col-blue mb-20">Titolo</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perspiciatis illo deleniti quisquam beatae quia quam provident. Accusantium perspiciatis deleniti veniam odit fugiat, accusamus sed quis labore voluptas distinctio facilis.
+                </p>
+            </div>
+
+            <div class="card debug flex-basis-100p100 bg-light-blue padd-10" style="border-radius: 8px;">
+                <i class="fa-solid fa-laptop-code col-blue"></i>
+                <h3 class="col-blue mb-20">Titolo</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perspiciatis illo deleniti quisquam beatae quia quam provident. Accusantium perspiciatis deleniti veniam odit fugiat, accusamus sed quis labore voluptas distinctio facilis.
+                </p>
+            </div>
+
+            <div class="card debug flex-basis-100p100 bg-light-blue padd-10" style="border-radius: 8px;">
+                <i class="fa-solid fa-bullhorn col-blue"></i>
+                <h3 class="col-blue mb-20">Titolo</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perspiciatis illo deleniti quisquam beatae quia quam provident. Accusantium perspiciatis deleniti veniam odit fugiat, accusamus sed quis labore voluptas distinctio facilis.
+                </p>
+            </div>
+
+        </section>
+
+
+    </main>
+    <!-- END: main -->
+
+
 
 </body>
 </html>

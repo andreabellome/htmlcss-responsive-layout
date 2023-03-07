@@ -15,7 +15,7 @@
 
     --color-blue: #0084FD; 
     --color-super-blue: #0093CE;
-    --color-light-blue: #C1D1E4;
+    --color-light-blue: #B5DDFF;
     --color-super-dark-blue: #0D2481;
 
     --color-white: #FFFFFF;
@@ -135,6 +135,10 @@ a{
 
 .width-75{
     width: 75%;
+}
+
+.width-80{
+    width: 80%;
 }
 
 .width-100p100{
@@ -353,6 +357,10 @@ a{
     display: flex;
 }
 
+.flex-basis-100p100{
+    flex-basis: 100%;
+}
+
 .flex-dir-col{
     flex-direction: column;
 }
@@ -542,6 +550,10 @@ a{
     opacity: 0.75;
 }
 
+.button{
+    padding: 8px;
+    border-radius: 8px;
+}
 
 /* START: radio button */
 
