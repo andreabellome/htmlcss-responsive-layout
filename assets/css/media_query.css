@@ -67,6 +67,21 @@ header div ul{
     background-repeat: no-repeat;
 }
 
+.quotes::before{
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: var(--color-white);
+}
+
+.quotes::after{
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: var(--color-white);
+}
+
+
 /* MEDIA QUERY */
 
 /* tablet view */
