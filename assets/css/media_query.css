@@ -47,6 +47,25 @@ header div ul{
     line-height: 45px;
 }
 
+.img-rounded{
+    width: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.circle{
+    border-radius: 100%;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    line-height: 150px;
+
+    background-image: url(../img/testimonial1.jpg);
+    background-repeat: no-repeat;
+}
+
 /* MEDIA QUERY */
 
 /* tablet view */
@@ -100,4 +119,17 @@ header div ul{
     .card:first-child{
         flex-basis: calc(66.66% - 1%);
     }
+
+    .strategy-planning .col{
+        flex-basis: 50%;
+    }
+
+    .card-white{
+        align-self: flex-end;
+    }
+
+    .card-white img{
+        width: 50%;
+    }
+
 }

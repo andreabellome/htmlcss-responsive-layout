@@ -441,6 +441,10 @@ a{
     color: var(--color-black);
 }
 
+.col-purple{
+    color: var(--color-purple);;
+}
+
 .col-light-gray{
     color: var(--color-light-gray);
 }
