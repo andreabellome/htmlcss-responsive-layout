@@ -174,4 +174,22 @@ header div ul{
         flex-basis: calc(100%/3 - 2%);
     }
 
+    .get-started{
+        flex-direction: row;
+    }
+
+    .get-started .card-gs-1{
+        flex-basis: 65%;
+    }
+
+    .get-started .card-gs-2{
+        flex-basis: 35%;
+    }
+
+    .btn-purp-gs{
+        width: 65%
+    }
+
+    
+
 }
