@@ -109,6 +109,11 @@ header div ul{
         align-items: center;
     }
 
+    .benefits .card-white{
+        flex-basis: calc(100%/2 - 2%);
+    }
+
+
 }
 
 /* desktop view */
@@ -163,6 +168,10 @@ header div ul{
     .testimonial-card-text{
         text-align: left;
         margin-left: 20px;
+    }
+
+    .benefits .card-white{
+        flex-basis: calc(100%/3 - 2%);
     }
 
 }
