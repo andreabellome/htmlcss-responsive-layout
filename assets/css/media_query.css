@@ -82,6 +82,19 @@ header div ul{
 }
 
 
+.avatar{
+    position: relative;
+    display: inline-block;
+}
+
+.avatar i{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 4rem;
+}
+
 /* MEDIA QUERY */
 
 /* tablet view */
@@ -111,6 +124,22 @@ header div ul{
 
     .benefits .card-white{
         flex-basis: calc(100%/2 - 2%);
+    }
+
+    .about-us{
+        flex-direction: row;
+    }
+
+    .about-us .card-aus-1{
+        flex-basis: 50%;
+    }
+
+    .about-us .card-aus-2{
+        flex-basis: 50%;
+    }
+
+    .btn-purp-aus{
+        width: 65%
     }
 
 
@@ -174,19 +203,19 @@ header div ul{
         flex-basis: calc(100%/3 - 2%);
     }
 
-    .get-started{
+    .about-us{
         flex-direction: row;
     }
 
-    .get-started .card-gs-1{
+    .about-us .card-aus-1{
         flex-basis: 65%;
     }
 
-    .get-started .card-gs-2{
+    .about-us .card-aus-2{
         flex-basis: 35%;
     }
 
-    .btn-purp-gs{
+    .btn-purp-aus{
         width: 65%
     }
 
